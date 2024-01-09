@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input.input-error,
+select.input-error{
+    border-color: red;
+    background-color: brown;
+}
