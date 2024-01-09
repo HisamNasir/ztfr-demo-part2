@@ -5,9 +5,9 @@ import { useFormik } from "formik";
 import React from "react";
 import { basicSchema } from "../schemas";
 import { error } from "console";
-const onSubmit = (values,actions) => {
-  console.log(values);
-  console.log(actions);
+const onSubmit = () => {
+  // console.log(value);
+  // console.log(action);
   
 };
 
